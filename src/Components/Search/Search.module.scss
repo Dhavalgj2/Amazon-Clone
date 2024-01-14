@@ -1,0 +1,56 @@
+.root{
+    :global{
+        /* Apply general styles to the search input */
+.search-input {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    max-width: 300px; /* Set a maximum width for larger screens */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Style the search button */
+  .search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the search input container for better layout */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add hover effect for the search button */
+  .search-button:hover {
+    background-color: #217dbb;
+  }
+  
+  /* Add focus style for better user experience */
+  .search-input:focus {
+    outline: none;
+    border-color: #217dbb;
+    box-shadow: 0 0 5px rgba(50, 115, 220, 0.5);
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .search-container {
+      flex-direction: column; /* Stack the input and button vertically on smaller screens */
+    }
+  
+    .search-input {
+      margin-bottom: 10px;
+    }
+  }
+  
+    }
+}
