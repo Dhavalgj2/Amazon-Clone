@@ -2,14 +2,30 @@
   :global {
     .header-container {
       background-color: #141921;
-      height: 4rem;
+      height: 60px;
       display: flex;
+       align-items: center;
+       padding: 12px;
     }
     .logo-container {
       width: 100px;
+      object-fit: contain;
+       margin: 0 20px;
+       margin-top: 20px;
+    }
+    .header-options-container{
+      color: white;
       display: flex;
-      align-items: center;
-      justify-content: center;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+    .cart-container{
+      display: flex;
+    }
+    .header-options{
+      margin-right: 10px;
+      margin-left: 10px;
+
     }
   }
 }
