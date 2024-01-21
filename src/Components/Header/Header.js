@@ -9,7 +9,11 @@ const Header = () => {
     <div className={styles.root}>
       <div className="header-container">
         <div className="logo-container">
-          <img src={logo} alt="" width="90px" height="100px" />
+          <img
+            className="header__logo"
+            src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+            alt=""
+          />
         </div>
         <Search />
         <div className="header-options-container">

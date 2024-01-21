@@ -1,0 +1,20 @@
+.root{
+    :global{
+        .subheader-container{
+         display: flex;
+         background-color: #222f3e;
+        }
+        li{
+            list-style: none;
+        }
+        .submenu-container > li {
+          padding: 12px;
+        }
+        .submenu-container{
+            display: flex;
+            color:white;
+            margin: 0;
+            padding: 0;
+         }
+    }
+}
